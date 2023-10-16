@@ -1,0 +1,15 @@
+{% include "head.html" %}
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 animate-box" data-animate-effect="fadeIn">
+				<div id="video" data-vide-bg="{{url_for('static', filename='video/Crocodile')}}" data-vide-options="position: 0 50%">
+					<div class="overlay-error overlay-404"></div>
+				</div>
+			</div>
+			<div class="col-md-6 animate-box col-md-offset-3"  data-animate-effect="fadeIn">
+			  {% include "alerts.html" %}
+				<p><a href="{{ url_for('list_users') }}" class="btn btn-info btn-lg">Go back home</a></p>
+			</div>
+		</div>
+	</div>
+{% include "footer.html" %}
