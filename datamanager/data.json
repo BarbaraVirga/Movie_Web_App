@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Ariel",
+        "movies": [
+            {
+                "name": "Kingsman",
+                "rating": "N/A",
+                "year": 2015,
+                "genre": "Short, Comedy",
+                "img": "N/A",
+                "director": "Baptiste Magontier",
+                "country": "France",
+                "alpha_2": "FR",
+                "imdbID": "tt6292660",
+                "id": 1
+            }
+        ]
+    }
+]
